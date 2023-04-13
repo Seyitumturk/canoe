@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>360 Image Viewer with Zoom</title>
+    <title>360 Image Viewer with Text</title>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script>
         AFRAME.registerComponent("zoom-on-mousewheel", {
@@ -31,6 +31,12 @@
     <a-scene>
         <a-sky src="kano.jpg" rotation="0 -130 0"></a-sky>
         <a-camera zoom-on-mousewheel position="0 0 0" look-controls="pointerLockEnabled: false"></a-camera>
+        <a-text value="UEC WAS HERE!!" position="4 0 -3" rotation="0 -40 0" color="orange" width="10"
+            align="center"></a-text>
+        <a-text value="Whats up V!!!" position="2 4 -3" rotation="0 -40 0" color="orange" width="10"
+            align="center"></a-text>
+        <a-text value="Whats up EMMA!!!" position="2 2 -3" rotation="0 -40 0" color="orange" width="10"
+            align="center"></a-text>
     </a-scene>
 </body>
 
